@@ -2,8 +2,9 @@
 ```
 $ cd quark
 $ mvn archetype:create-from-project
-$ mvn install
+
 $ cd target/generated-sources/archetype/
+$ mvn install
 $ mvn archetype:crawl
 
 $ mvn archetype:generate -DarchetypeCatalog=local
