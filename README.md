@@ -1,12 +1,14 @@
-[教程](https://zhuanlan.zhihu.com/p/91315510)
-```
-$ cd quark
-$ mvn archetype:create-from-project
+![](https://img.shields.io/badge/status-active-brightgreen) ![](https://img.shields.io/badge/contibutor-1-blue) ![](https://img.shields.io/badge/license-MIT-blue)
+## How to Use
 
-$ cd target/generated-sources/archetype/
-$ mvn install
-$ mvn archetype:crawl
-
-$ mvn archetype:generate -DarchetypeCatalog=local
-
+```shell script
+mvn archetype:generate \
+    -DarchetypeCatalog=remote \
+    -DarchetypeArtifactId=quark-archetype \
+    -DarchetypeVersion=0.0.1-SNAPSHOT \
+    -DarchetypeGroupId=com.dream \
+    -DgroupId=com.example \
+    -DartifactId=demo2 \
+    -Dpackage=jar \
+    -Dversion=1.0
 ```
