@@ -8,7 +8,7 @@ mvn archetype:generate \
     -DarchetypeVersion=0.0.1-SNAPSHOT \
     -DarchetypeGroupId=com.dream \
     -DgroupId=com.example \
-    -DartifactId=demo2 \
+    -DartifactId=demo \
     -Dpackage=jar \
     -Dversion=1.0
 ```
