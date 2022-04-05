@@ -10,5 +10,5 @@ mvn archetype:generate \
     -DgroupId=com.example \
     -DartifactId=demo \
     -Dpackage=jar \
-    -Dversion=1.0
+    -Dversion=0.0.1-SNAPSHOT
 ```
